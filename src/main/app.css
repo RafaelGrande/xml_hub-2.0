@@ -1,0 +1,40 @@
+body {
+    background-color: #edecec;
+}
+
+.container {
+    max-width: 999px;
+    margin: 0 auto;
+}
+
+.page-metrics {
+    background-color: #fff;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+
+.metrics-header {
+    margin-bottom: 20px;
+    overflow: auto;
+
+}
+
+.metrics-header__perido {
+    padding: 0 15px;
+}
+
+.metrics-header__title {
+    font-size: 32px;
+    color: #777;
+    float: left;
+}
+
+.metrics-header__icons {
+    float: right;
+}
+
+.info-metrics {
+    text-align: center;
+}
+
+
