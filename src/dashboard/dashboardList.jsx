@@ -38,10 +38,10 @@ export default props => {
                     {renderRows() }
                 </tbody>
             </table>
-            <button type="button" className="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab" onClick={() => props.handleNext(-10)}>
+            <button type="button" className="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored" onClick={() => props.handleNext(-10)}>
                 <i className="material-icons">keyboard_arrow_left</i>
             </button>
-            <button type="button" className="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab" onClick={() => props.handleNext(10)}>
+            <button type="button" className="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored" onClick={() => props.handleNext(10)}>
                 <i className="material-icons">keyboard_arrow_right</i>
             </button>
         </div>
